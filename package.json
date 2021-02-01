@@ -1,0 +1,24 @@
+{
+  "name": "syntaxpharmacy",
+  "version": "1.0.0",
+  "description": "This is a website for a retail pharmacy.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuawilliams-cjw/syntax-pharmacy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuawilliams-cjw/syntax-pharmacy/issues"
+  },
+  "homepage": "https://github.com/joshuawilliams-cjw/syntax-pharmacy#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

@@ -1,0 +1,43 @@
+body {
+    font-family:'Bebas Neue', cursive;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #276f13, #55b8da);
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.nav-link:hover {
+    border-top: 4px solid #55b8da;
+    border-bottom: 4px solid #55b8da;
+    padding: 1px 0; 
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #55b8da;
+}
+
+.dropdown-menu:hover {
+    display: block;
+}
+
+.dropdown-menu {
+    right: auto; left: auto;
+}
+
+#mainCarousel {
+    margin-top: 13%;
+    margin-right: 15px;
+    border: solid 4px #55b8da;
+}

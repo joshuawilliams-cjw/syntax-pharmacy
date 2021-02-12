@@ -18,47 +18,49 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
-        <a href="#" class="navbar-brand"><img src="img/pharmacy-logo.png"  width="250" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+            <a href="#" class="navbar-brand"><img src="img/pharmacy-logo.png"  width="250" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse align-self-end" id="navToggle">
-            <ul class="navbar-nav ml-auto text-nowrap">
-                <li class="nav-item active">
-                    <a href="#" class="nav-link px-4">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-4">About Us</a>
-                </li>
-                <!-- Services dropdown menu start -->
-                <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle px-4" data-toggle="dropdown" href="#" role="button">Services</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">Presciption Refill</a></li>
-                        <li><a href="#" class="dropdown-item">Transfer a Presciption</a></li>
-                        <li><a href="#" class="dropdown-item">Delivery</a></li>
-                        <li><a href="#" class="dropdown-item">Vaccines &amp; Immunizations</a></li>
-                        <li><a href="#" class="dropdown-item">OTC Medications</a></li>
-                    </ul>
-                </li>
-                <!-- dropdown menu end -->
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-4">Staff</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-4">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- End of Navbar -->
-
+            <div class="collapse navbar-collapse align-self-end" id="navToggle">
+                <ul class="navbar-nav ml-auto text-nowrap">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link px-4">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-4">About Us</a>
+                    </li>
+                    <!-- Services dropdown menu start -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link dropdown-toggle px-4" data-toggle="dropdown" href="#" role="button">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Presciption Refill</a></li>
+                            <li><a href="#" class="dropdown-item">Transfer a Presciption</a></li>
+                            <li><a href="#" class="dropdown-item">Delivery</a></li>
+                            <li><a href="#" class="dropdown-item">Vaccines &amp; Immunizations</a></li>
+                            <li><a href="#" class="dropdown-item">OTC Medications</a></li>
+                        </ul>
+                    </li>
+                    <!-- dropdown menu end -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-4">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <!-- End of Navbar -->
+    <div class="container">
     <!-- Home Carouse begin -->
         <div class="row row-content">
-            <div class="col-md-8 ml-auto">
+            <div class="col-md-9 ml-auto">
                 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="mainCarousel" data-slide-to="0" class="active"></li>
@@ -67,6 +69,12 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/pharmacy-building.jpg" alt="Outside of Pharmacy Building" />
+                            <p>Phone: 972-555-2020</p>
+                            <p>Fax: 972-555-2021</p>
+                            <p>Address: 2121 Eldin Canyon Eldin Province, Hyrule 70017</p>
+                        </div>
+                        <div class="carousel-item">
                             <img class="d-block w-100" src="img/pharmacy-carousel1.jpg" alt="rx logo with motto" />
                         </div>
                         <div class="carousel-item">
@@ -79,36 +87,138 @@
     <!-- Home Carousel end -->
 
     <!-- Login Card begin-->
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <a href="#" class="float-right btn">Register</a>
-                    <h4 class="card-title mb-4 mt-1">Log In</h4>
-                    <form action=>
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input name="email" type="email" class="form-control" placeholder="enter email">
-                        </div>
-                        <div class="form-group">
-                            <a class="float-right" href="#">Forgot?</a>
-                            <label>Password</label>
-                            <input name="password" type="password" class="form-control" placeholder="enter passowrd">
-                        </div>
-                        <div class="form-group">
-                            <div class="checkbox">
-                                <label><input type="checkbox"> Save Password </label>
+            <div class="row row-content">
+                <div class="card col-md-3 mr-auto" id="loginCardHome">
+                    <div class="card-body">
+                        <a href="#" class="float-right btn">Register</a>
+                        <h4 class="card-title mb-4 mt-1">Log In</h4>
+                        <form action=>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input name="email" type="email" class="form-control" placeholder="enter email">
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block"> Login </button>
-                        </div>
-                    </form>
+                            <div class="form-group">
+                                <a class="float-right" href="#">Forgot?</a>
+                                <label>Password</label>
+                                <input name="password" type="password" class="form-control" placeholder="enter passowrd">
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label><input type="checkbox"> Save Password </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block"> Login </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <!-- Login Card end -->
+    </div>
+
+    <hr>
+
+    <div id="rxSignWithButtons" class="container">
+        <img id="rxSignLight" src="img/rx-image-sign.jpg" class="img-fluid" alt="rx illumnated sign">
+        <button id="refillButton" type="button" class="btn btn-lg btn-block col-sm-4" data-toggle="modal" data-target=#refillButtonModal>Refill Prescription</button>
+        <button id="transferButton"type="button" class="btn btn-lg btn-block col-sm-4" data-toggle="modal" data-target=#transferButtonModal>Transfer Prescription</button>
+    </div>
+
+    <div class="modal fade" id="transferButtonModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h3 class="modal-title text center w-100 font-weight-bold">Transfer a Prescription</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="col">
+                        <input type="date" class="form-control" placeholder="Date of Birth">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control" placeholder="Phone Number">
+                    </div>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="col">
+                        <input type="address" class="form-control" placeholder="Address">
+                    </div>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="City">
+                    </div>
+                    <div class="col-2">
+                        <select class="form-control bfh-states" data-country="US" data-state=""></select>
+                    </div>
+                    <div class="col-4">
+                        <input class="form-control" placeholder="Zipcode">
+                    </div>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Pharmacy Name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control" placeholder="Pharmacy Phone Number">
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input mb-4" type="checkbox">
+                    <label class="form-check-label">Check Box to Transfer All Prescriptions</label><br>
+                    <label>Or</label><br>
+                    <lable>Enter Prescriptions to be transferred below</label>
+                </div>
+
+                <div class="modal-body form-row">
+                    <div class="form-group col-md-6">
+                        <label>Enter Medication Name</label>
+                        <input type="text" class="form-control" placeholder="Medicaiton Name">
+                        <input type="text" class="form-control" placeholder="Medicaiton Name">
+                        <input type="text" class="form-control" placeholder="Medicaiton Name">
+                        <input type="text" class="form-control" placeholder="Medicaiton Name">
+                        <input type="text" class="form-control" placeholder="Medicaiton Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>RX Number From Current Pharmacy</label>
+                        <input class="form-control" placeholder="RX #">
+                        <input class="form-control" placeholder="RX #">
+                        <input class="form-control" placeholder="Rx #">
+                        <input class="form-control" placeholder="RX #">
+                        <input class="form-control" placeholder="Rx #">
+                    </div>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn">Submit</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Login Card end -->
+
+    <hr>
+
+ 
+
+
+
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

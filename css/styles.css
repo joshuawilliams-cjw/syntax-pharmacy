@@ -37,7 +37,47 @@ li {
 }
 
 #mainCarousel {
-    margin-top: 13%;
+    margin-top: 15%;
     margin-right: 15px;
     border: solid 4px #55b8da;
+}
+
+.carousel-item image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#loginCardHome {
+    margin-top: -42.5%;
+    margin-left: -3%;
+    border-color: #55b8da;
+}
+
+#rxSignWithButtons {
+    margin-top: 1%;
+    position: relative;
+    width: 100%;
+    max-width: 1000%;
+    border: 4px solid #55b8da;
+}
+
+#refillButton {
+    position: absolute;
+    top: 72%;
+    right: 60%;
+    color: white;
+    background-color: #55b8da;
+    font-size: 26px;
+    border: 4px solid white;
+}
+
+#transferButton {
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    color: white;
+    background-color: #55b8da;
+    font-size: 26px;
+    border: 4px solid white;
 }
